@@ -62,6 +62,22 @@ ul li {
 	height: 4em;
 	margin: 2em 5em;
 }
+.icon {
+	width: 3em;
+	height: 3.5em;
+	float: left;
+	margin-top: 0.5em;
+	background: #616E7F;
+}
+.desc {
+	width: 14.7em;
+	height: 3em;
+	float: right;
+	margin-right: 0.2em;
+	top: 0;
+	right: 0;
+	background: #616E7F;
+}
 .features {
 	background: #D1D3D7;
 }
@@ -71,8 +87,23 @@ ul li {
 }
 .fbox {
 	background: #fff;
-	height: 14em;
 	margin: 2em 1em;
+	padding: 1.5em;
+}
+.fbox div {
+	width: 4em;
+	height: 4em;
+	background: #C7D2D8;
+	margin: 0 auto;
+}
+.fbox h2 {
+	height: 1em;
+	background: #C7D2D8;
+	margin: 0.5em auto;
+}
+.fbox p {
+	height: 4em;
+	background: #C7D2D8;
 }
 .cta {
 	height: 11em;
