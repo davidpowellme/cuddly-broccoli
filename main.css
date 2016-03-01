@@ -7,27 +7,55 @@ header {
 }
 footer {
 	background: #000000;
-	padding: 2em;
+	padding: 1em 2em 1em 2em;
 }
 footer div {
 	background: #fff;
 	height: 2em;
 	width: 33%;
 	max-width: 10em;
-	margin: 0 auto;
+	margin: 2em auto 0 auto;
+}
+ul {
+	vertical-align: baseline;
+	text-align: center;
+	line-height: 1.5em;
 }
 ul li {
 	color: #fff;
 	display: inline;
+	font-size: 0.7em;
+	padding: 6px 7px;
 }
 .greeting {
 	background-color: #344051;
 	color: #fff;
 	text-align: center;
+	font-family: Helvetica;
+	padding: 10em 0 4em 0;
 
+}
+.greeting h1 {
+	font-weight: 500;
+}
+.pt1 {
+	padding: 0 2em;
+}
+.pt1 p {
+	padding: 0 3em;
+}
+.start {
+	background: #186E95;
+	height: 4em;
+	width: 14em;
+	margin: 2em auto;
+	border: 0.5em solid #212934;
 }
 .scroll {
 	background-color: #fff;
+	width: 60px;
+	height: 20px;
+	margin: 10em auto 9em auto;
 }
 .opt-box {
 	background: #fff;
@@ -37,6 +65,23 @@ ul li {
 .features {
 	background: #D1D3D7;
 }
+.info {
+	height: 11em;
+	background: #E8F0F5;
+}
 .fbox {
 	background: #fff;
+	height: 14em;
+	margin: 2em 1em;
+}
+.cta {
+	height: 11em;
+	background: #E8F0F5;
+	padding:7em 0 4.5em 0;
+}
+.cta div {
+	height: 3em;
+	width: 13em;
+	background: #1E8CBE;
+	margin: 0 auto;
 }
