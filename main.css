@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+header {
+	background: #1187BB;
+	height: 4.6em;
+}
+footer {
+	background: #000000;
+	padding: 2em;
+}
+footer div {
+	background: #fff;
+	height: 2em;
+	width: 33%;
+	max-width: 10em;
+	margin: 0 auto;
+}
+ul li {
+	color: #fff;
+	display: inline;
+}
+.greeting {
+	background-color: #344051;
+	color: #fff;
+	text-align: center;
+
+}
+.scroll {
+	background-color: #fff;
+}
+.opt-box {
+	background: #fff;
+	height: 4em;
+	margin: 2em 5em;
+}
+.features {
+	background: #D1D3D7;
+}
+.fbox {
+	background: #fff;
+}
