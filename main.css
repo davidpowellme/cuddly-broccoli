@@ -129,9 +129,9 @@ footer ul li {
 	margin: 0 auto;
 }
 .fbox h2 {
-	height: 1em;
-	background: #C7D2D8;
 	margin: 0.5em auto;
+	text-align: center;
+	color: #426277;
 }
 .fbox p {
 	height: 4em;
