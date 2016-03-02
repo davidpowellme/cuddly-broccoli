@@ -94,7 +94,6 @@ footer ul li a {
 	background: #1187BB;
 }
 .scroll {
-	background-color: #fff;
 	width: 60px;
 	height: 20px;
 	margin: 10em auto 9em auto;
@@ -111,11 +110,10 @@ footer ul li a {
 	overflow: hidden;
 }
 .icon {
-	width: 3em;
-	height: 5em;
 	float: left;
+	width: 4em;
+	height: 4em;
 	margin: 0.5em 0.5em 0 0;
-	background: #616E7F;
 	vertical-align: top;
 }
 .desc {
@@ -168,6 +166,8 @@ footer ul li a {
 .fbox div {
 	width: 4em;
 	height: 4em;
+	color: #547D98;
+	border-radius: 50%;
 	background: #C7D2D8;
 	margin: 0 auto;
 }
