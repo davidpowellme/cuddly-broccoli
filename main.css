@@ -2,8 +2,11 @@
 	box-sizing: border-box;
 }
 header {
+	position: fixed;
+	top: 0;
+	width: 100%;
 	background: #1187BB;
-	height: 4.6em;
+	z-index: 9999;
 }
 footer {
 	background: #000000;
@@ -26,6 +29,26 @@ footer ul li {
 	display: inline;
 	font-size: 0.7em;
 	padding: 6px 7px;
+}
+.logo {
+	width: 2em;
+	height: 2em;
+	background: #FFFFFF;
+	float: left;
+	margin: 0.5em;
+}
+.sitename {
+	width: 7.5em;
+	height: 2em;
+	background: #FFFFFF;
+	float: left;
+	margin: 0.5em;
+}
+.login {
+	width: 4.75em;
+	background: #0070A4;
+	float: right;
+	padding: 1.5em 4em;
 }
 .greeting {
 	background-color: #344051;
@@ -62,28 +85,26 @@ footer ul li {
 	margin: 0 auto;
 }
 .opt-box {
-	width: 13em;
 	display: inline-block;
 	margin: 1em;
-	padding: 15px;
 	background: #fff;
 }
-/*.icon {
+.icon {
 	width: 3em;
 	height: 3.5em;
 	float: left;
-	margin-top: 0.5em;
+	margin: 0.5em 0.5em 0 0;
 	background: #616E7F;
 }
 .desc {
 	width: 14.7em;
 	height: 3em;
-	float: right;
+	float: left;
 	margin-right: 0.2em;
 	top: 0;
 	right: 0;
 	background: #616E7F;
-}*/
+}
 .features {
 	background: #D1D3D7;
 }
