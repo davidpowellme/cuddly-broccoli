@@ -7,6 +7,7 @@ header {
 	width: 100%;
 	background: #1187BB;
 	z-index: 9999;
+	color: #fff;
 }
 footer {
 	background: #000000;
@@ -38,18 +39,19 @@ footer ul li {
 	margin: 0.5em;
 }
 .sitename {
-	width: 7.5em;
-	height: 2em;
-	background: #FFFFFF;
 	float: left;
-	margin: 0.5em;
+	margin: 1em 0.5em;
+}
+.sitename span {
+	color: #75BED8;
 }
 .login {
-	width: 4.75em;
 	background: #0070A4;
 	float: right;
-	padding: 1.5em 4em;
+	padding: 0 2em;
+	line-height: 3.2em;
 }
+
 .greeting {
 	background-color: #344051;
 	color: #fff;
@@ -68,11 +70,14 @@ footer ul li {
 	padding: 0 3em;
 }
 .start {
-	background: #186E95;
-	height: 4em;
-	width: 14em;
+	width: 7em;
 	margin: 2em auto;
+	background: #186E95;
+	padding: 0.5em 1em;
+	color: #fff;
+	font-size: 1.5em;
 	border: 0.5em solid #212934;
+	box-sizing: content-box;
 }
 .scroll {
 	background-color: #fff;
