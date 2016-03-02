@@ -113,14 +113,20 @@ footer ul li {
 .features {
 	background: #D1D3D7;
 }
+.features article {
+	width: 90%;
+	margin: 3em auto;
+}
 .info {
 	height: 11em;
 	background: #E8F0F5;
 }
 .fbox {
+	width: 23em;
 	background: #fff;
-	margin: 2em 1em;
+	margin: 0.2em;
 	padding: 1.5em;
+	display: inline-block;
 }
 .fbox div {
 	width: 4em;
@@ -130,8 +136,10 @@ footer ul li {
 }
 .fbox h2 {
 	margin: 0.5em auto;
+	font-size: 1.2em;
 	text-align: center;
 	color: #426277;
+	font-weight: 300;
 }
 .fbox p {
 	height: 4em;
