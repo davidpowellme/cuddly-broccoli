@@ -88,45 +88,75 @@ footer ul li {
 .pt2 {
 	width: 90%;
 	margin: 0 auto;
+	overflow: hidden;
 }
 .opt-box {
+	margin: 1em auto;
+	padding: 1em;
 	display: inline-block;
-	margin: 1em;
-	background: #fff;
+	width: 30%;
+	min-width: 16em;
+}
+@media screen and (max-width: 864px) {
+	.opt-box {
+		display: block;
+	}
 }
 .icon {
 	width: 3em;
-	height: 3.5em;
+	height: 5em;
 	float: left;
+	display: inline;
 	margin: 0.5em 0.5em 0 0;
 	background: #616E7F;
+	vertical-align: top;
 }
 .desc {
 	width: 14.7em;
-	height: 3em;
-	float: left;
+	display: inline;
 	margin-right: 0.2em;
-	top: 0;
-	right: 0;
-	background: #616E7F;
+	text-align: left;
+	vertical-align: top;
+}
 }
 .features {
-	background: #D1D3D7;
+	width: 100%;
+	background-color: #D1D3D7;
+	padding: 4em;
 }
 .features article {
-	width: 90%;
-	margin: 3em auto;
+	margin: 0 auto;
+	background: #D1D3D7;
+	box-sizing: content-box;
+	padding: 2em;
 }
 .info {
-	height: 11em;
+	padding: 2em 4em;
 	background: #E8F0F5;
 }
+.info h2 {
+	width: 85%;
+	max-width: 50em;
+	margin: 0 auto;
+	font-size: 2em;
+	font-weight: 300;
+	color: #344051;
+	text-align: center;
+	line-height: 1.6em;
+}
 .fbox {
-	width: 23em;
 	background: #fff;
 	margin: 0.2em;
-	padding: 1.5em;
+	padding: 1.5em 1em;
 	display: inline-block;
+	width: 30%;
+	vertical-align: baseline;
+}
+@media screen and (max-width: 886px) {
+	.fbox {
+		display: block;
+		width: 95%;
+	}
 }
 .fbox div {
 	width: 4em;
@@ -142,13 +172,13 @@ footer ul li {
 	font-weight: 300;
 }
 .fbox p {
-	height: 4em;
-	background: #C7D2D8;
 }
 .cta {
-	height: 11em;
 	background: #E8F0F5;
 	padding:7em 0 4.5em 0;
+}
+.cta h2 {
+	text-align: center;
 }
 .cta div {
 	height: 3em;
